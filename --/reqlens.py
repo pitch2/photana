@@ -1,7 +1,7 @@
 import os
 from google.cloud import vision
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\ponto\OneDrive\Bureau\--\cle.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "votre clé"
 
 # Créez un client Cloud Vision
 client = vision.ImageAnnotatorClient()
