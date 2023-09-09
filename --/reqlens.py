@@ -6,7 +6,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\ponto\OneDrive\Bureau\
 # Créez un client Cloud Vision
 client = vision.ImageAnnotatorClient()
 
-url = r"c:\Users\ponto\OneDrive\Bureau\--\fleur_lotus.jpg"
+# url = r"c:\Users\ponto\OneDrive\Bureau\--\fleur_lotus.jpg"
 
 def requrl(url):
     # Chargez l'image à analyser
@@ -28,7 +28,3 @@ def requrl(url):
         argu.append(label.description)
 
     return argu
-
-result = requrl(url)
-
-argu = " ".join(result)
