@@ -1,7 +1,7 @@
 import openai
 
 openai.organization = "org-ec0bVXFOx1ccTsgi26QxvpR9"
-openai.api_key = "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"
+openai.api_key = "completer"
 
 
 
