@@ -9,7 +9,7 @@ Le programme est assez simple, mais je n'ai pas trouvé d'équivalent sur Intern
 Si vous souhaitez l'utiliser, il faudra exécuter le script "premier_démarrage" et également configurer votre API OpenAI, ainsi qu'une clé en format .json pour l'Google Vision.
 
 ---
-# Google Vision
+### Google Vision
 
 Étape 1 : Accéder à la Console Google Cloud
 
