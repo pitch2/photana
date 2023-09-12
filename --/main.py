@@ -8,10 +8,10 @@ import fonctions
 import shutil
 
 
-# chemin = input("Donnez le chemin du dossier à analyser : ")
-chemin = r"C:\Users\ponto\OneDrive\Bureau\Nouveau dossier"
-# dossier_archivage = input("Donnez le chemin de destination du tri: ")
-dossier_archivage = r"C:\Users\ponto\OneDrive\Bureau\Nouveau dossier"
+chemin = input("Donnez le chemin du dossier à analyser : ")
+
+dossier_archivage = input("Donnez le chemin de destination du tri: ")
+
 
 # on rend les chemins utilisable par python
 dossier_archivage = fonctions.corriger_url(dossier_archivage)
