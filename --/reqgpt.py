@@ -1,7 +1,7 @@
 import openai
 
-openai.organization = "org-ec0bVXFOx1ccTsgi26QxvpR9"
-openai.api_key = "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"
+openai.organization = "org-#####"
+openai.api_key = "sk-#####"
 
 
 
