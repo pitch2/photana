@@ -60,7 +60,7 @@ Le fichier requirements arrive...
 Exemple en Python :
 ```
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "chemin/vers/votre/fichier-de-clé.json"```
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "chemin/vers/votre/fichier-de-clé.json"
 ```
 
 Si ça ne fonctionne toujours pas, je conseil d'installer le logiciel GCloud
