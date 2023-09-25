@@ -2,8 +2,6 @@
 
 Photana, comme son nom l'indique, est un analyseur de photos qui permet ensuite de les étiqueter et de les trier dans des dossiers.
 
-En ce qui concerne la forme, j'utilise le framework Electron.js et j'exécute mon script à l'aide de PyScript, un framework HTML. Pour l'instant, je rencontre un problème lors de l'exécution du script... (Pour l'instant, le script n'est pas disponible sur le référentiel).
-
 Le programme est assez simple, mais je n'ai pas trouvé d'équivalent sur Internet. Le programme d'analyse fonctionne avec deux API.
 
 Si vous souhaitez l'utiliser, il faudra exécuter le script "premier_démarrage" et également configurer votre API OpenAI, ainsi qu'une clé en format .json pour l'Google Vision.
