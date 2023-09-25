@@ -6,7 +6,7 @@ Le programme est assez simple, mais je n'ai pas trouvé d'équivalent sur Intern
 
 Si vous souhaitez l'utiliser, il faudra exécuter le script "premier_démarrage" et également configurer votre API OpenAI, ainsi qu'une clé en format .json pour l'Google Vision.
 
-Le fichier requirements arrive, ainsi que quelques amelioration pour l'utilisateur
+Le fichier requirements arrive, ainsi que quelques amelioration pour l'utilisateur + README à ameliorer
 
 ---
 ### Google Vision
