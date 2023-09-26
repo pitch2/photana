@@ -1,71 +1,30 @@
 # Photana
 
-Photana, comme son nom l'indique, est un analyseur de photos qui permet ensuite de les étiqueter et de les trier dans des dossiers.
-
-Le programme est assez simple, mais je n'ai pas trouvé d'équivalent sur Internet. Le programme d'analyse fonctionne avec deux API.
-
-Si vous souhaitez l'utiliser, il faudra exécuter le script "premier_démarrage" et également configurer votre API OpenAI, ainsi qu'une clé en format .json pour l'Google Vision.
-
-Le fichier requirements arrive ainsi que README amelioré
+Photana est un programme python qui permet de tier des photos dans des catégories. A l'aide de plusieurs API (Google ainsi que OpenAi). 
 
 ---
-### Google Vision
+### Installation et initilisation: 
 
-Étape 1 : Accéder à la Console Google Cloud
-
-  - Accédez à Google Cloud Console.
-  
-  - Connectez-vous à votre compte Google ou créez un compte si vous n'en avez pas.
-
-Étape 2 : Créer un projet
-
-  - Si vous n'avez pas déjà un projet, créez-en un en cliquant sur le sélecteur de projet en haut de la page, puis en cliquant sur "Nouveau projet". Donnez-lui un nom et appuyez   sur "Créer".
-  
-Étape 3 : Activer les API Google Cloud
-
-  - Dans le menu de navigation à gauche, cliquez sur "API & Services" > "Tableau de bord".
-  
-  - Cliquez sur le bouton "+ Activer les APIs et les services" en haut de la page.
-  
-  - Dans la barre de recherche, tapez le nom de l'API que vous souhaitez utiliser (par exemple, "Cloud Vision API" ou "Google Sheets API").
-  
-  - Cliquez sur le résultat de l'API que vous souhaitez utiliser.
-
-Étape 4 : Activer l'API
-
-  - Cliquez sur le bouton "Activer" pour activer l'API que vous avez sélectionnée.
-
-Étape 5 : Créer un compte de service
-
-  - Dans le menu de navigation à gauche, sous "API & Services", cliquez sur "Identifiants".
-  
-  - Cliquez sur le bouton "Créer des identifiants" en haut de la page, puis sélectionnez "Compte de service".
-  
-  - Donnez un nom à votre compte de service, attribuez-lui un rôle (par exemple, "Lecteur" ou "Administrateur", selon les besoins), puis cliquez sur "Continuer".
-
-Étape 6 : Créer une clé de compte de service
-
-  - Sur la page suivante, cliquez sur "Créer une clé de compte de service" pour générer une nouvelle clé.
-  
-  - Sélectionnez le type de clé JSON.
-  
-  - Cliquez sur "Créer" pour télécharger la clé JSON sur votre ordinateur.
-
-Étape 7 : Configurer la variable d'environnement
-  
-  - Une fois que vous avez téléchargé la clé JSON, configurez la variable d'environnement GOOGLE_APPLICATION_CREDENTIALS dans votre code pour qu'elle pointe vers le chemin du      fichier JSON de clé que vous venez de télécharger.
-  
-Exemple en Python :
+- Vous devez déjà télécharger l'archive:
 ```
-import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "chemin/vers/votre/fichier-de-clé.json"
+git clone https://github.com/pitch2/photana.git
 ```
 
-Si ça ne fonctionne toujours pas, je conseil d'installer le logiciel GCloud
+- Ensuite, télécharger les modules nécessaires au fonctionnement du programme:
+```
+pip install -r requirements.txt
+```
 
----
-TO-DO 26/09/23
-- [ ] Faire des features en plus 
-- [ ] Readme
-- [X] Requirements
-- [ ] Faire un remplissage des API depuis le fichier "premier_démarrage"
+- Ensuite, vous devrez recupérer votre API de OpenAI (assez simple), et dans le fichier ```reqgpt.py```, vous mettez les informations (organisation & clé API), 
+    - 0,002 dollars pour 1000 tokens = 750 mots (le programme ne vous couteras cassiment rien)
+      
+- Enfin il faut configurer Google Vision, comme la manipulation est assez longue je vous laisse regarder dans le fichier ```explication_google.txt```
+
+### Bugs:
+Si tous est bien configurer tous fonctionne correment, aucun bugs. Il y a juste un probleme certaines fois avec OpenAI, je vous conseil de mettre votre CB (et un plafond de consommation pour aucun dépassement involontaire.                                         
+
+### Suite:
+J'ai comme idée de faire une suite de programme destiné aux photographes, de plus, d'autres features arriveront prochainements (comme d'autres manière de trier)
+
+### Credits :
+Made 100% by Adrien Pichon. The beginning of the project dated 8/09/23.
