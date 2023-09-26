@@ -65,7 +65,7 @@ Si ça ne fonctionne toujours pas, je conseil d'installer le logiciel GCloud
 
 ---
 TO-DO 26/09/23
-- [] Faire des features en plus 
-- [] Readme
+- [ ] Faire des features en plus 
+- [ ] Readme
 - [X] Requirements
-- [] Faire un remplissage des API depuis le fichier "premier_démarrage"
+- [ ] Faire un remplissage des API depuis le fichier "premier_démarrage"
