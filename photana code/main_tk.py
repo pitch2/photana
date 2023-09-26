@@ -58,6 +58,7 @@ def start_processing():
 root = tk.Tk()
 root.title("Image Processing Tool")
 root.geometry("500x300")
+root.configure(bg="black")
 
 # Create and place the widgets
 label_chemin = tk.Label(root, text="Chemin du dossier à analyser:")
