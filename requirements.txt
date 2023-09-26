@@ -1,0 +1,11 @@
+tk==0.1.0
+openai==0.27.8
+tqdm==4.66.1
+google-api-core==2.11.1
+google-auth==2.22.0
+google-auth-oauthlib==1.0.0
+google-cloud==0.34.0
+google-cloud-vision==3.4.4
+google-pasta==0.2.0
+googleapis-common-protos==1.60.0
+piexif==1.1.3
