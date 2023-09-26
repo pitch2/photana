@@ -1,9 +1,9 @@
 # Photana
 
-Photana est un programme python qui permet de tier des photos dans des catégories. A l'aide de plusieurs API (Google ainsi que OpenAi). 
+📷 Photana est un programme python qui permet de tier des photos dans des catégories. A l'aide de plusieurs API (Google ainsi que OpenAi). 
 
 ---
-### Installation et initilisation: 
+### ⚙️ Installation et initilisation: 
 
 - Vous devez déjà télécharger l'archive:
 ```
@@ -20,11 +20,11 @@ pip install -r requirements.txt
       
 - Enfin il faut configurer Google Vision, comme la manipulation est assez longue je vous laisse regarder dans le fichier ```explication_google.txt```
 
-### Bugs:
+### 🛑 Bugs:
 Si tous est bien configurer tous fonctionne correment, aucun bugs. Il y a juste un probleme certaines fois avec OpenAI, je vous conseil de mettre votre CB (et un plafond de consommation pour aucun dépassement involontaire.                                         
 
-### Suite:
+### ➡️ Suite:
 J'ai comme idée de faire une suite de programme destiné aux photographes, de plus, d'autres features arriveront prochainements (comme d'autres manière de trier)
 
-### Credits :
+### ©️ Credits :
 Made 100% by Adrien Pichon. The beginning of the project dated 8/09/23.
