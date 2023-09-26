@@ -64,8 +64,8 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "chemin/vers/votre/fichier-de-cl�
 Si ça ne fonctionne toujours pas, je conseil d'installer le logiciel GCloud
 
 ---
-
+TO-DO 26/09/23
 - [] Faire des features en plus 
 - [] Readme
-- [] Requirements
+- [X] Requirements
 - [] Faire un remplissage des API depuis le fichier "premier_démarrage"
