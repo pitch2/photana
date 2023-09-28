@@ -1,6 +1,7 @@
 # Photana
 
 📷 Photana est un programme python qui permet de tier des photos dans des catégories. A l'aide de plusieurs API (Google ainsi que OpenAi). 
+Pour l'instant le programme fonction seulement avec jpg et jpeg et la verson tk n'a pas encore toutes fonctions (ça fonctionne mais pas de libellage EXIF)
 
 ---
 ### ⚙️ Installation et initilisation: 
