@@ -1,31 +1,30 @@
 # Photana
 
-📷 Photana est un programme python qui permet de trier des photos dans des catégories. A l'aide de plusieurs API (Google ainsi que OpenAi). 
-Pour l'instant le programme fonction seulement avec jpg et jpeg et la verson tk n'a pas encore toutes les fonctions (ça fonctionne mais pas de libellage EXIF)
+📷 Photana est un programme en Python qui permet de trier des photos dans des catégories à l'aide de plusieurs API, notamment Google et OpenAI. Pour le moment, le programme fonctionne uniquement avec les formats jpg et jpeg, et la version Tkinter n'a pas encore toutes les fonctionnalités (elle fonctionne, mais le libellé EXIF n'est pas pris en compte).
 
 ---
-### ⚙️ Installation et initilisation: 
+### ⚙️ Installation et initialisation:
 
-- Vous devez déjà télécharger l'archive:
-```
-git clone https://github.com/pitch2/photana.git
-```
+1. Téléchargez l'archive en exécutant la commande suivante dans votre terminal :
+   ```
+   git clone https://github.com/pitch2/photana.git
+   ```
 
-- Ensuite, télécharger les modules nécessaires au fonctionnement du programme:
-```
-pip install -r requirements.txt
-```
+2. Ensuite, installez les modules nécessaires au fonctionnement du programme :
+   ```
+   pip install -r requirements.txt
+   ```
 
-- Ensuite, vous devrez recupérer votre API de OpenAI (assez simple), et dans le fichier ```reqgpt.py```, vous mettez les informations (organisation & clé API), 
-    - 0,002 dollars pour 1000 tokens = 750 mots (le programme ne vous couteras cassiment rien)
-      
-- Enfin il faut configurer Google Vision, comme la manipulation est assez longue je vous laisse regarder dans le fichier ```explication_google.txt```
+3. Récupérez votre API OpenAI (c'est assez simple). Dans le fichier ```reqgpt.py```, saisissez les informations de votre organisation et de la clé API.
+    - Coût : 0,002 dollars pour 1000 tokens, équivalent à 750 mots (le programme vous coûtera presque rien).
 
-### 🛑 Bugs:
-Si tous est bien configurer tous fonctionne correment, aucun bugs. Il y a juste un probleme certaines fois avec OpenAI, je vous conseil de mettre votre CB (et un plafond de consommation pour aucun dépassement involontaire.                                         
+4. Configurez Google Vision. La procédure étant assez longue, consultez le fichier ```explication_google.txt``` pour plus de détails.
 
-### ➡️ Suite:
-J'ai comme idée de faire une suite de programme destiné aux photographes, de plus, d'autres features arriveront prochainements (comme d'autres manière de trier)
+### 🛑 Bugs :
+Si tout est bien configuré, le programme fonctionne correctement, sans aucun bug. Cependant, il peut y avoir des problèmes occasionnels avec OpenAI. Je vous conseille de configurer votre carte bancaire avec un plafond de consommation pour éviter tout dépassement involontaire.
 
-### ©️ Credits :
-Made 100% by Adrien Pichon. The beginning of the project dated 8/09/23.
+### ➡️ Suite :
+J'ai l'intention de créer une suite de programmes destinée aux photographes. De plus, d'autres fonctionnalités seront ajoutées prochainement, notamment de nouvelles méthodes de tri.
+
+### ©️ Crédits :
+Réalisé à 100% par Adrien Pichon. Le début du projet date du 8/09/23.
