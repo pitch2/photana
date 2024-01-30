@@ -1,50 +1,16 @@
-### Créer un fichier JSON de clé (key.json) pour utiliser les services Google Cloud est une étape importante pour authentifier votre application ou votre script auprès des API Google Cloud. Voici un guide simple étape par étape pour obtenir un fichier JSON de clé :
+### 🛑 Avant, il faut avoir crée le projet sur Google Cloud 
+Dans la console Google Cloud, accédez à Menu menu > API et services > Identifiants.
+Accéder à [Identifiants](https://console.cloud.google.com/apis/credentials?hl=fr&project=analyse-photo-397814)
 
-## Étape 1 : Accéder à la Console Google Cloud
-
-1. Accédez à [Google Cloud Console](https://console.cloud.google.com/).
-
-2. Connectez-vous à votre compte Google ou créez un compte si vous n'en avez pas.
-
-## Étape 2 : Créer un projet
-
-3. Si vous n'avez pas déjà un projet, créez-en un en cliquant sur le sélecteur de projet en haut de la page, puis en cliquant sur "Nouveau projet". Donnez-lui un nom et appuyez sur "Créer".
-
-## Étape 3 : Activer les API Google Cloud
-
-4. Dans le menu de navigation à gauche, cliquez sur "API & Services" > "Tableau de bord".
-
-5. Cliquez sur le bouton "+ Activer les APIs et les services" en haut de la page.
-
-6. Dans la barre de recherche, tapez le nom de l'API que vous souhaitez utiliser (par exemple, "Cloud Vision API" ou "Google Sheets API").
-
-7. Cliquez sur le résultat de l'API que vous souhaitez utiliser.
-
-## Étape 4 : Activer l'API
-
-8. Cliquez sur le bouton "Activer" pour activer l'API que vous avez sélectionnée.
-
-## Étape 5 : Créer un compte de service
-
-9. Dans le menu de navigation à gauche, sous "API & Services", cliquez sur "Identifiants".
-
-10. Cliquez sur le bouton "Créer des identifiants" en haut de la page, puis sélectionnez "Compte de service".
-
-11. Donnez un nom à votre compte de service, attribuez-lui un rôle (par exemple, "Lecteur" ou "Administrateur", selon les besoins), puis cliquez sur "Continuer".
-
-## Étape 6 : Créer une clé de compte de service
-
-12. Sur la page suivante, cliquez sur "Créer une clé de compte de service" pour générer une nouvelle clé.
-
-13. Sélectionnez le type de clé JSON.
-
-14. Cliquez sur "Créer" pour télécharger la clé JSON sur votre ordinateur.
-
-## Étape 7 : Configurer la variable d'environnement
-
-15. Une fois que vous avez téléchargé la clé JSON, configurez la variable d'environnement `GOOGLE_APPLICATION_CREDENTIALS` dans votre code pour qu'elle pointe vers le chemin du fichier JSON de clé que vous venez de télécharger.
-
-Commande en Python :
+- Cliquez sur Créer des identifiants > ID client OAuth.
+- Cliquez sur Type d'application > Application Web.
+- Dans le champ Name (Nom), saisissez un nom pour l'identifiant. Ce nom ne s'affiche que dans la console Google Cloud.
+- Ajoutez les URI autorisés associés à votre application :
+- Applications côté client (JavaScript) : sous Origines JavaScript autorisées, cliquez sur Ajouter un URI. Saisissez ensuite un URI à utiliser pour les requêtes du navigateur. Ce champ identifie les domaines à partir desquels votre application peut envoyer des requêtes API au serveur OAuth 2.0.
+- Applications côté serveur (Java, Python, etc.) : sous URI de redirection autorisés, cliquez sur Ajouter un URI. Saisissez ensuite un URI de point de terminaison auquel le serveur OAuth 2.0 peut envoyer des réponses. (ignorer)
+- Cliquez sur Créer. L'écran du client OAuth créé s'affiche, avec l'ID et le code secret du client que vous venez de créer.
+- Puis télécharger la clé en cliquant sur le projet
+- Cliquez sur OK. Les nouveaux identifiants s'affichent sous ID client OAuth 2.0.
 
 ```python
 import os
