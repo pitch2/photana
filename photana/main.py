@@ -38,7 +38,7 @@ for i in tqdm(range(i, len(liste_fichiers)), colour = 'WHITE'):
     # Appel de la fonction pour ecrire notre adjectif fais par GPT dans les données EXIF de la photo (ici les mots-clé)
     EXIF.exif_mc(url, argu)
     # On deplace l'image dans le dossiers attitré
-    #shutil.move(liste_fichiers[i], f"{dossier_archivage}\\{argu}")
+    shutil.move(liste_fichiers[i], f"{dossier_archivage}\\{argu}")
     
     n = n + 1
     
@@ -46,7 +46,7 @@ for i in tqdm(range(i, len(liste_fichiers)), colour = 'WHITE'):
     
 # print(f"{n+1} images sur {len(liste_fichiers)}")
 
-compte = (compte*0.0015)/1000 + (compte*0.0015)/1000
-print("Cette session de requette vous à coutez:",compte,"$")
+#compte = (compte*0.0015)/1000 + (compte*0.0015)/1000
+#print("Cette session de requette vous à coutez:",compte,"$")
 
     
