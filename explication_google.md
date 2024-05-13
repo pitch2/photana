@@ -1,6 +1,6 @@
 ### 🛑 Avant, il faut avoir crée le projet sur Google Cloud 
 Dans la console Google Cloud, accédez à Menu menu > API et services > Identifiants.
-Accéder à [Identifiants](https://console.cloud.google.com/apis/credentials?hl=fr&project=analyse-photo-397814)
+Accéder à [Identifiants](https://console.cloud.google.com/apis)
 
 - Cliquez sur Créer des identifiants > ID client OAuth.
 - Cliquez sur Type d'application > Application Web.
