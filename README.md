@@ -1,6 +1,6 @@
 # Photana
 
-### Ce programme n'est plus optimisé avec les nouvelles techno 
+### 🟥 Ce programme n'est plus optimisé avec les nouvelles techno 
 
 ### 📷 Présentation :
 Photana est un programme en Python qui permet de trier des photos dans des catégories à l'aide de plusieurs API, notamment Google et OpenAI. Pour le moment, le programme fonctionne uniquement avec les formats jpg et jpeg, et la version Tkinter n'a pas encore toutes les fonctionnalités (elle fonctionne, mais le libellé EXIF n'est pas pris en compte).
