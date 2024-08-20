@@ -30,4 +30,4 @@ Si tout est bien configuré, le programme fonctionne correctement, sans aucun bu
 J'ai l'intention de créer une suite de programmes destinée aux photographes. De plus, d'autres fonctionnalités seront ajoutées prochainement, notamment de nouvelles méthodes de tri.
 
 ### ©️ Crédits :
-Réalisé à 100% par Adrien Pichon. Le début du projet date du 8/09/23.
+Réalisé à 100% par **pitch**. Le début du projet date du 8/09/23.
