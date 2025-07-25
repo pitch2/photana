@@ -1,6 +1,6 @@
 # Photana
-
-### 🟥 Ce programme n'est plus optimisé avec les nouvelles techno 
+> [!WARNING]
+> Le programme n'est plus optimisé avec les nouvelles techno, une nouvelle version arrive
 ### Nouvelle version avec LLM... en cours
 
 ### 📷 Présentation :
